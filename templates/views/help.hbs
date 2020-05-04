@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Help</title>
+        <link rel="icon" href="/img/weather.png">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+   <body>
+       <div class="main-content">
+           {{>header}}
+          <p>Digite uma localidade ou endereço e veja como está o tempo por lá</p>
+          <p>Se o resultado não for o que vc esperava, tente dar mais detalhes.</p>
+          <p>Esta aplicação irá buscar as coordenadas latitude e longitude da API https://api.mapbox.com/</p>
+          <p>Com essas coordenadas irá buscar algumas informações sobre o clima na API http://api.weatherstack.com/</p>
+       </div>
+     
+       {{>footer}}
+   </body>
+
+</html>
